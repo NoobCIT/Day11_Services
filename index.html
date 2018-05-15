@@ -2,10 +2,145 @@
 <html lang='eng'>
   <head>
     <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <title>Day 11: Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='styles.css' rel='stylesheet'>
   </head>
   <body>
+    <header class='menu'>
+      <nav>
+        <ul>
+          <li>home</li>
+          <li>services</li>
+          <li id='company'><sup id='high-point'>high point</sup><span id='cafe'>cafe</span></li>
+          <li>menu</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <header class='mobile-menu'>
+      <nav>
+        <div class='nav-button'>
+          <div class='nav-menu-button'></div>
+        </div>
+        <div class='menu-items'>
+          <ul>
+            <li>home</li>
+            <li>services</li>
+            <li>menu</li>
+            <li>contact</li>
+          </ul>
+        </div>
+      </nav>
+      <div class='logo'>
+        <p id='company'><sup id-'high-point'>high point</sup><span id='cafe'>cafe</span></p>
+      </div>
+    </header>
+
+    <div id='home' class='home-image'>
+      <img src='./images/main.jpg'>
+    </div>
+
+    <div class='advertisement'>
+      <p>Call today, and we'll deliver free coffee | (322) 322.32222</p>
+      <div class='socialmedia'>
+        <a href='#'><i class='fa fa-facebook'></i></a>
+        <a href='#'><i class='fa fa-twitter'></i></a>
+        <a href='#'><i class='fa fa-instagram'></i></a>
+        <a href='#'><i class='fa fa-snapchat'></i></a>
+      </div>
+    </div>
+
+    <div id='services' class='offer'>
+      <h1>what we offer</h1>
+    </div>
+
+    <div id='menu' class='services'>
+      <div class='item' id='coffee'>
+        <i class='fa fa-coffee'></i>
+        <h2>coffee</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus leo a tristique gravida.</p>
+      </div>
+      <div class='item' id='delivery'>
+        <i class='fa fa-truck'></i>
+        <h2>delivery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus leo a tristique gravida.</p>
+      </div>
+      <div class='item' id='events'>
+        <i class='fa fa-calendar'></i>
+        <h2>events</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus leo a tristique gravida.</p>
+      </div>
+    </div>
+
+    <div id='order'>
+      <button>order now</button>
+    </div>
+
+    <div class='coffee'>
+      <div id='cold'>
+        <i class='fa fa-snowflake-o'></i>
+        <h2>cold</h2>
+        <hr>
+        <h4>iced coffee with milk</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>2.5</p>
+        <h4>iced white chocolate</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>3.5</p>
+        <h4>iced pure black coffee</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>1.5</p>
+      </div>
+      <div id='hot'>
+        <i class='fa fa-fire'></i>
+        <h2>hot</h2>
+        <hr>
+        <h4>latte</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>3.5</p>
+        <h4>hot chocolate mocha</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>2.5</p>
+        <h4>cappucino</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>5.5</p>
+      </div>
+    </div>
+
+    <div id='contact' class='contact'>
+      <form>
+        <input id='firstname' type='text' placeholder='First Name'></input>
+        <input id='lastname' type='text' placeholder='Last Name'></input>
+        <textarea id='message' type='text' placeholder='Message'></textarea>
+        <button>submit</button>
+      </form>
+    </div>
+
+    <section>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#about'>About</a></li>
+            <li><a href='#services'>Services</a></li>
+            <li><a href='#contact'>Contact</a></li>
+          </ul>
+        </nav>
+        <div class='socialmedia-foot'>
+          <a href='#'><i class='fa fa-facebook'></i></a>
+          <a href='#'><i class='fa fa-twitter'></i></a>
+          <a href='#'><i class='fa fa-instagram'></i></a>
+          <a href='#'><i class='fa fa-snapchat'></i></a>
+        </div>
+        <div class='copyright'>
+          <p>&copy; 2018 | All Rights Reserved</p>
+        </div>
+      </footer>
+    </section>
+
+  <script src='scripts.js'></script>
   </body>
 </html>
